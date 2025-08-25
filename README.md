@@ -145,14 +145,19 @@ python test_system.py                   # Run system tests
 
 ```
 pdf-rag-system/
-├── config.py              # Configuration management
-├── pdf_processor.py       # PDF content extraction
-├── vector_store.py        # Weaviate integration
-├── rag_system.py         # Main RAG implementation
-├── main.py              # CLI interface
-├── test_system.py       # Test suite
-├── requirements.txt     # Dependencies
-├── .env        # Environment template
-└── README.md          # This file
+├── config/
+│   ├── __init__.py
+│   └── settings.py
+├── src/
+│   ├── __init__.py
+│   ├── pdf_processor.py
+│   ├── vector_store.py
+│   └── rag_system.py
+├── main.py
+├── test_system.py
+├── requirements.txt
+├── .env
+└── README.md
 ```
+
 
