@@ -28,8 +28,8 @@ A comprehensive Retrieval-Augmented Generation (RAG) system designed to process 
 
 ### 1. Clone Repository
 ```bash
-git clone <repository-url>
-cd sds-rag-project
+git clone https://github.com/ArpanGyawali/sds-multimodal-rag.git
+cd sds-multimodal-rag
 ```
 
 ### 2. Setup Environment
@@ -159,5 +159,6 @@ pdf-rag-system/
 ├── .env
 └── README.md
 ```
+
 
 
